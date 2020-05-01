@@ -1,6 +1,6 @@
 # Zag Bridge
 
-This is an open-source bridge between the 802.15.4 radio interface on a Texas Instruments CC2531 USB dongle and a host computer. A host program is intended to handle all communications, especially [zag-coordinator](https://github.com/srhg/zag-coordinator).
+This is an open-source bridge between the 802.15.4 radio interface on a Texas Instruments CC2531 USB dongle and a host computer. A host program is intended to handle all communications, especially [zag-bridge](https://github.com/srhg/zag-bridge).
 
 This project is based heavily on Frans-Willem's [ZigbeeRadioBridge](https://github.com/frans-willem/ZigbeeRadioBridge) project.  It uses a more condensed and incompatible serial protocol.
 
