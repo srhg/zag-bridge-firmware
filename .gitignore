@@ -1,0 +1,10 @@
+obj_*
+sdcc
+sdcc-source
+*.banks
+*.cc2530dk
+*.hex
+*.lib
+*.lk
+*.map
+*.mem

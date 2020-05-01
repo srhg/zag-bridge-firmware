@@ -1,0 +1,14 @@
+#ifndef PROJECT_CONF_H_
+#define PROJECT_CONF_H_
+
+#define MODELS_CONF_CC2531_USB_STICK 1
+#define ADC_SENSOR_CONF_ON 0
+#define LPM_CONF_MODE 0
+#define UART0_CONF_HIGH_SPEED 1
+#define UART0_RTSCTS 1
+#define UART0_CONF_WITH_INPUT 1
+#define USB_SERIAL_CONF_BUFFERED 1
+#undef NETSTACK_CONF_RDC
+#define NETSTACK_CONF_RDC zag_bridge_rdc_driver
+
+#endif // PROJECT_CONF_H_
