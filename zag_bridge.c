@@ -43,9 +43,9 @@ PROCESS_THREAD(packetbridge_process, ev, data) {
 			serial_process_input(&receive_ringbuf);
 		} else if (ev == sensors_event) {
 			if (data == &button_1_sensor) {
-				commands_send_event_on_button(1);
+				commands_send_event_on_button(0);
 			} else if (data == &button_2_sensor) {
-				commands_send_event_on_button(2);
+				commands_send_event_on_button(1);
 			}
 		}
 	}
